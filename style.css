@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Basic&display=swap');
+body {
+    margin: 0;
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    font-family: "Basic", sans-serif;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    align-items: center;
+    max-height: 10%;
+    padding: 1rem;
+    gap: 2rem;
+    border-bottom: 0.1rem solid #0f0f0f;
+}
+
+#archlogo {
+    height: 7rem;
+    aspect-ratio: 1/1;
+}
+
+.archcolor {
+    color: #1792d0;
+    text-shadow: 0 0 15.5px rgba(23, 146, 208, 2);
+}
